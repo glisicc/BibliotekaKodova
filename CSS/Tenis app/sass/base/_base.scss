@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /*force inheritance in this case from body block*/
+}
+html {
+  /* font-size: 10px; */
+  font-size: 10px; /*becouse default fs of browser is 16px (16 * 62.5 = 10px)*/
+}
+body {
+  box-sizing: border-box; /*  */
+}
+img {
+  height: 100%;
+  width: auto;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 7px;
+  }
+}

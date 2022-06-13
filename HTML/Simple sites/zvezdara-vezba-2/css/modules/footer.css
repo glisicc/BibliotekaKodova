@@ -1,0 +1,32 @@
+#footer{
+    padding-bottom: 50px;
+    background-color: #F2F2F2;
+}
+#footer .blue-box{
+    color: white;
+    background-color: #134077;
+    width: fit-content;
+    padding: 0 10px;
+    margin: 30px 0;
+}
+#footer .footer-text-box h1,p{
+    color: #134077;
+}
+#footer .footer-text-box hr{
+    background-color: #134077;
+}
+#footer .poruka input{
+    margin-bottom: 15px;
+}
+#footer .poruka textarea{
+    margin-bottom: 15px;
+}
+#footer .poruka{
+    display: flex;
+    flex-direction: column;
+}
+#footer .tema-poruke{
+    display: flex;
+    flex-direction: row;
+}
+

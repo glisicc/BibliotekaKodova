@@ -1,0 +1,239 @@
+/* --- import css styles ---- */
+
+@import url(./modules/header.css);
+@import url(./modules/sliders/first-slider.css);
+@import url(./modules/sliders/news-slider.css);
+@import url(./modules/blocks/red-block.css);
+@import url(./modules/blocks/links.css);
+@import url(./modules/blocks/single-out.css);
+@import url(./modules/footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*  RESPONSIVE  */
+/*  RESPONSIVE  */
+/*  RESPONSIVE  */
+/*  RESPONSIVE  */
+
+@media(max-width: 991px){
+    .left-side{
+        display: none !important;
+    }
+    .right-side{
+        margin-left: 0 !important;
+    }
+}
+
+
+
+/*  END RESPONSIVE  */
+/*  END RESPONSIVE  */
+/*  END RESPONSIVE  */
+/*  END RESPONSIVE  */
+
+
+
+
+
+/* -------- right side ---------- */
+.right-side{
+    margin-left: 191px;
+}
+
+/* ----- header ----- */
+#nav-bar{
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* hover evekat ispod dugmeta */
+.navbar-collapse ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar-collapse ul li:hover::after{
+    width: 100%;
+}
+.header-row{
+    padding-top: 50px;
+}
+.header-left{
+    display: flex;
+}
+.header-content{
+    flex: 1;
+}
+
+.header{
+    height: 350px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('https://zvezdara.rs/wp-content/uploads/2020/12/zvezdara-2x.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.text-box{
+    color: #fff;
+    
+}
+.text-box h1{
+    font-size: 42px;
+}
+.text-box p{
+    margin: 10px 0 20px;
+    font-size: 24px;
+    color: #fff;
+    font-style: italic;
+}
+
+ 
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.search-container button:hover {
+    background: #ccc;
+  }
+
+.menu-position{
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    top: 60px;
+    z-index: 999;
+    background-color: black;
+}
+
+@media(max-width: 980px){
+   .navbar-collapse{
+    position: absolute;
+   }
+}
+/* ---- proveri ----- */
+/* .navbar-collapse{ */
+        /* position: absolute;
+        width: 100%;
+        right: 0px;
+        top: 60px;
+        z-index: 999;
+        background-color: black; */
+    /* } */
+
+/* ------  left side ----------- */
+
+.left-side{
+    height: 100vh;
+    width: 191px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 9999;
+}
+.left-side .logo img{
+    padding-top: 5vh ;
+}
+.weather{
+    text-align: left;
+    padding-left: 20px;
+}
+.weather-row{
+    padding: 0 auto;
+}
+.weather-row h6{
+    display: inline;
+}
+.left-side-links{
+    list-style-type:none;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.left-side-links ul li{
+    list-style-type:none;
+}
+
+
+/* -----  dropdown menu ------ */
+.dropdown{
+    width: 100%;
+    background-color: orangered;
+    position: relative;
+    margin-left: 191px;
+    height: 500px;
+    top: -500px;
+    z-index: 0;
+    transition: 0.2s;
+}
+
+/* ------  content ------- */
+.first-slider{
+ padding: 0;
+}
+.slider-container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* ---- plavi slajder ----- */
+.blue-slider-row{
+    background-color: #134077; 
+    padding: 50px;
+}
+
+      
+     

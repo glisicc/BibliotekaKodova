@@ -1,0 +1,77 @@
+.section-league {
+  &__heading {
+    font-size: 2.4rem;
+    color: $color-blue-main;
+    text-transform: uppercase;
+    display: inline;
+    border-bottom: solid 0.4rem $color-primary-green;
+  }
+  & .heading-seson {
+    font-size: 3.1rem;
+    text-align: right;
+    margin-top: 2rem;
+    margin-left: 50%;
+    border-bottom: 0.7rem solid #c9d22b;
+    color: $color-blue-main;
+  }
+}
+.match-played {
+  margin: 2.2rem 0;
+  width: 40%;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: $color-blue-main;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.section-results {
+  & .player-info {
+    color: $color-blue-main;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 7px solid $color-primary-green;
+    margin: 15px 30%;
+  }
+  & .info {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    & img {
+      height: 5rem;
+    }
+    & p {
+      font-size: 14px;
+      color: $color-blue-main;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .section-league {
+    &__heading {
+      font-size: 2.4rem;
+      color: $color-blue-main;
+      text-transform: uppercase;
+      display: block;
+      width: 80%;
+      border-bottom: solid 0.4rem $color-primary-green;
+    }
+    & .heading-seson {
+      font-size: 3.1rem;
+      text-align: right;
+      margin-top: 2rem;
+      margin-left: 20%;
+      margin-bottom: 1.5rem;
+      border-bottom: 0.7rem solid $color-primary-green;
+      color: $color-blue-main;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .section-results {
+    & .player-info {
+      margin: 15px 10%;
+    }
+  }
+}

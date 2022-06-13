@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+<!-- ------  left side -------- -->
+
+    <section class="left-side">
+        
+                <div class="logo">
+                    <img src="https://zvezdara.rs/wp-content/uploads/2021/01/logo-zvezdara.jpg" alt="">
+                </div>
+                
+                <div class="weather">
+                    <div>
+                        <h2 class="left-bar-font-color">Прогноза</h2>
+                        <h6 class="left-bar-font-color">Београд</h6>
+                        <h6 class="left-bar-font-color">Датум</h6>
+                    </div>
+                    <div>
+                        <div class="weather-row">
+                            <div class="weather-row-icon">
+                                <img class="" src="img/11.gif" alt="Icon 1"> <h6 class="">xz</h6> 
+                            </div>
+                            <div class="weather-row-icon">
+                                <img class="left-bar-icon" src="img/wpf-NW.png" alt="Icon 2"> <h6 class="">xz</h6> 
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="left-bar-font-color">Тренутни притисак</h6>
+                        <h6 class="left-bar-font-color">Влажност</h6>
+                    </div>
+                    
+                </div>
+                <div class="left-side-links">
+                    <ul class="ul-no-dots">
+                        <li class="hover-underline-animation"> Vesti</li>
+                        <li class="hover-underline-animation"> Najtrazenije</li>
+                    </ul>
+                </div>
+            
+    </section>
+
+    
+
+<!-- ----  header ----- -->
+
+    <section>
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ----  dropdown menu ------ -->
+<!-- <section>
+    <div class="dropdown" id="navLinks">
+
+    </div>
+    
+</section> -->
+
+<!-- ----  content ------ -->
+    <section id="slider">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 first-slider">
+
+               </div>
+           </div>
+       </div>
+    </section>
+
+    <!-- <section>
+        <div class="swiper-container swiper-container-bs" style="width: 100%;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> 1</div>
+                <div class="swiper-slide"> 2</div>
+                <div class="swiper-slide"> 3</div>
+                <div class="swiper-slide"> 4</div>
+                <div class="swiper-slide"> 5</div>
+                <div class="swiper-slide"> 6</div>
+                <div class="swiper-slide"> 7</div>
+            </div>
+        </div>
+
+    </section> -->
+
+<!-- JavaScript for Toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(event){
+        navLinks.style.top = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+ 
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- <script>
+    // SWIPER HOME-ALL NEWS
+var swiper1 = new Swiper('.swiper-container', {
+   slidesPerView: 5,
+   spaceBetween: 30,
+   navigation: {
+      nextEl: '.swiper-button-next-unique',
+    prevEl: '.swiper-button-prev-unique'
+   },
+   breakpoints: {
+      // when window width is <= 768px
+      768: {
+          slidesPerView: 1,
+          spaceBetweenSlides: 30
+      },
+      // when window width is <= 991px
+      991: {
+         slidesPerView: 2,
+         spaceBetweenSlides: 40
+     },
+     // when window width is <= 1200px
+      1200: {
+          slidesPerView: 3,
+          spaceBetweenSlides: 40
+      }
+   }
+});
+</script> -->

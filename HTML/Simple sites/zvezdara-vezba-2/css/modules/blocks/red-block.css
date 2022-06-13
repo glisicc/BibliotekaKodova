@@ -1,0 +1,47 @@
+#red-block{
+    background-color: brown;
+    padding: 70px 30px;
+}
+#red-block .container-fluid{
+    height: 100%;
+}
+#red-block .row{
+    height: 100%;
+    align-items: center;
+}
+#red-block .left{
+    align-items: center;
+    color: white;
+}
+#red-block .left hr{
+    background-color: white;
+}
+#red-block .right{
+}
+#red-block .block{
+    background-color: white;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+#red-block .block .icon{
+    height: 50px;
+    width: 50px;
+    align-self: flex-end;
+    margin: 10px;
+}
+#red-block .akcija{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+#red-block .akcija:hover img{
+    transform: scale(1.2);
+    
+}
+#red-block .akcija img{
+    transition: transform 0.5s;
+    
+}

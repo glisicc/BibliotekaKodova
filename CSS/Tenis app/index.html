@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenis app</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="row header__row">
+        <div class="col-1-of-2">
+          <div class="header__logo-box">
+            <img src="./img/logo.png" alt="Logo" class="header__logo" />
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="navigation">
+            <ul>
+              <li class="active nav-item">
+                <a href="#"
+                  ><i class="fa fa-home" aria-hidden="true"></i> Tabela</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"></i>Mečevi</a>
+              </li>
+              <li class="nav-item">
+                <a href="#"></i>Sezona</a>
+                <div class="sub-menu">
+                  <ul>
+                    <li>
+                      <a href="#">Mission</a>
+                    </li>
+                    <li>
+                      <a href="#">Vision</a>
+                    </li>
+                    <li>
+                      <a href="#">Team</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-league">
+        <div class="row">
+          <h2 class="section-league__heading">League 1 Play Off</h2>
+          <table class="table-result">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Ime</th>
+                <th>telefon</th>
+                <th>Poeni</th>
+                <th>Bonus</th>
+                <th>Mečeva</th>
+                <th>Gem</th>
+                <th>+:-</th>
+                <th>Pobeda</th>
+                <th>Poraza</th>
+                <th>Poslednjih 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td id="168.1934">Bega</td>
+                <td>0637424964</td>
+                <td>34</td>
+                <td class="editabled" onclick="b(168,1934,16 );">16</td>
+                <td>6</td>
+                <td>30</td>
+                <td>54 :24</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="table-result__last5">
+                  <img src="img/zelena.png" alt="" srcset="" />
+                  <img src="img/crvena.png" alt="" srcset="" />
+                  <img src="img/zelena.png" alt="" srcset="" />
+                  <img src="img/zelena.png" alt="" srcset="" />
+                  <img src="img/zelena.png" alt="" srcset="" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="col-2-of-3">
+            <table class="table-edit">
+              <tbody>
+                <tr>
+                  <td>1A Play of</td>
+                  <td><b>Bugi</b></td>
+                  <td><b>Bega</b></td>
+                  <td><b>Kiza</b></td>
+                  <td><b>Tabak</b></td>
+                  <td><b>Vesko</b></td>
+                  <td><b>Aco</b></td>
+                  <td><b>Filip</b></td>
+                </tr>
+                <tr>
+                  <td><b>Bugi</b></td>
+                  <td style="background-color: #808080"></td>
+                  <td onclick='u(168,1933,1934,"5:9");'>5:9</td>
+                  <td onclick='u(168,1933,1935,"9:4");'>9:4</td>
+                  <td onclick='u(168,1933,1937,"9:6");'>9:6</td>
+                  <td onclick='u(168,1933,1938,"9:7");'>9:7</td>
+                  <td onclick='u(168,1933,1939,"9:4");'>9:4</td>
+                  <td onclick='u(168,1933,1943,"9:6");'>9:6</td>
+                </tr>
+                <tr>
+                  <td><b>Bega</b></td>
+                  <td onclick='u(168,1934,1933,"9:5");'>9:5</td>
+                  <td style="background-color: #808080"></td>
+                  <td onclick='u(168,1934,1935,"9:1");'>9:1</td>
+                  <td onclick='u(168,1934,1937,"9:4");'>9:4</td>
+                  <td onclick='u(168,1934,1938,"9:8");'>9:8</td>
+                  <td onclick='u(168,1934,1939,"9:1");'>9:1</td>
+                  <td onclick='u(168,1934,1943,"9:5");'>9:5</td>
+                </tr>
+                <tr>
+                  <td><b>Kiza</b></td>
+                  <td onclick='u(168,1935,1933,"4:9");'>4:9</td>
+                  <td onclick='u(168,1935,1934,"1:9");'>1:9</td>
+                  <td style="background-color: #808080"></td>
+                  <td onclick='u(168,1935,1937,"7:9");'>7:9</td>
+                  <td onclick='u(168,1935,1938,"6:9");'>6:9</td>
+                  <td onclick='u(168,1935,1939,"7:9");'>7:9</td>
+                  <td onclick='u(168,1935,1943,"8:9");'>8:9</td>
+                </tr>
+                <tr>
+                  <td><b>Tabak</b></td>
+                  <td onclick='u(168,1937,1933,"6:9");'>6:9</td>
+                  <td onclick='u(168,1937,1934,"4:9");'>4:9</td>
+                  <td onclick='u(168,1937,1935,"9:7");'>9:7</td>
+                  <td style="background-color: #808080"></td>
+                  <td onclick='u(168,1937,1938,"7:9");'>7:9</td>
+                  <td onclick='u(168,1937,1939,"9:5");'>9:5</td>
+                  <td onclick='u(168,1937,1943,"9:8");'>9:8</td>
+                </tr>
+                <tr>
+                  <td><b>Vesko</b></td>
+                  <td onclick='u(168,1938,1933,"7:9");'>7:9</td>
+                  <td onclick='u(168,1938,1934,"8:9");'>8:9</td>
+                  <td onclick='u(168,1938,1935,"9:6");'>9:6</td>
+                  <td onclick='u(168,1938,1937,"9:7");'>9:7</td>
+                  <td style="background-color: #808080"></td>
+                  <td onclick='u(168,1938,1939,"9:2");'>9:2</td>
+                  <td onclick='u(168,1938,1943,"9:0");'>9:0</td>
+                </tr>
+                <tr>
+                  <td><b>Aco</b></td>
+                  <td onclick='u(168,1939,1933,"4:9");'>4:9</td>
+                  <td onclick='u(168,1939,1934,"1:9");'>1:9</td>
+                  <td onclick='u(168,1939,1935,"9:7");'>9:7</td>
+                  <td onclick='u(168,1939,1937,"5:9");'>5:9</td>
+                  <td onclick='u(168,1939,1938,"2:9");'>2:9</td>
+                  <td style="background-color: #808080"></td>
+                  <td onclick='u(168,1939,1943,"9:7");'>9:7</td>
+                </tr>
+                <tr>
+                  <td><b>Filip</b></td>
+                  <td onclick='u(168,1943,1933,"6:9");'>6:9</td>
+                  <td onclick='u(168,1943,1934,"5:9");'>5:9</td>
+                  <td onclick='u(168,1943,1935,"9:8");'>9:8</td>
+                  <td onclick='u(168,1943,1937,"8:9");'>8:9</td>
+                  <td onclick='u(168,1943,1938,"0:9");'>0:9</td>
+                  <td onclick='u(168,1943,1939,"7:9");'>7:9</td>
+                  <td style="background-color: #808080"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-1-of-3"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+<script>
+  const menuItem = document.querySelectorAll(".menu-item");
+  const checkSub = function (el) {
+    console.log(el);
+    if (el.querySelector(".sub-menu")) {
+    }
+  };
+  menuItem.forEach((item) => {
+    item.addEventListener("click", checkSub(item));
+  });
+  console.log(menuItem);
+</script>
