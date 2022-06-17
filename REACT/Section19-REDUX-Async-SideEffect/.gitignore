@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/withMyComments
 /.pnp
 .pnp.js
 
